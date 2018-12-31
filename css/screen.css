@@ -22,11 +22,11 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-}
+}*/
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
@@ -62,15 +62,15 @@ ul.posts {
   margin-bottom: 2em;
 }
 
-  ul.posts li {
-    line-height: 1.75em;
-  }
+ul.posts li {
+  line-height: 1.75em;
+}
 
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
 
 /*****************************************************************************/
 /*
@@ -92,55 +92,55 @@ ul.posts {
   margin-bottom: 2em;
 }
 
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-  }
+.site .title a {
+  color: #a00;
+  text-decoration: none;
+}
 
-  .site .title a:hover {
-    color: black;
-  }
+.site .title a:hover {
+  color: black;
+}
 
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
+.site .title a.extra {
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 1em;
+}
 
-  .site .title a.extra:hover {
-    color: black;
-  }
+.site .title a.extra:hover {
+  color: black;
+}
 
-  .site .meta {
-    color: #aaa;
-  }
+.site .meta {
+  color: #aaa;
+}
 
-  .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-  }
+.site .footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
 
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-    }
+.site .footer .contact {
+  float: left;
+  margin-right: 3em;
+}
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
+.site .footer .contact a {
+  color: #8085C1;
+}
 
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
+.site .footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
 
-      .site .footer .rss img {
-        border: 0;
-      }
+.site .footer .rss img {
+  border: 0;
+}
 
 /*****************************************************************************/
 /*
